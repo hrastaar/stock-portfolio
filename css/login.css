@@ -1,0 +1,67 @@
+/*
+    Standard Robinhood color: #21CE99
+    Robinhood dark mode background color: #1B1B1D
+    Bright Robinhood button color:  rgb(37, 248, 185);
+*/
+
+/* clean robinhood-based font for the app */
+@font-face {
+    font-family: robinhood;
+    src: url(DIN.ttf);
+}
+
+html, body, header {
+    font-family: robinhood;
+    background: #1B1B1D; 
+    color: #21CE99;
+}
+/* horizontal border: bright robinhood color */
+hr {
+    border-color: rgb(37, 248, 185);
+}
+
+.smaller-hr {
+    border-color: #21CE99;
+}
+
+.button-custom {
+    background-color: rgb(37, 248, 185);
+    color: #1B1B1D;
+    max-width: 50%;
+}
+
+/* for each button */
+.row {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detail p {
+    color: white;
+}
+
+.errorMsg {
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+/* footer styling: show small message on bottom of page */
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    color: white;
+}
+
+.white {
+    color: white;
+    text-align: center;
+}
+
